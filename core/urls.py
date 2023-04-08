@@ -26,7 +26,7 @@ router = routers.SimpleRouter()
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="RESTAURANT API",
+        title="ASSIDUITY API",
         default_version='v1',
         description="Description",
         terms_of_service="https://www.google.com/policies/terms/",
@@ -39,10 +39,6 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
-    path('resto/', include('resto.urls', namespace='resto')),
-
-    path('', include('resto.urls', namespace='resto')),
-
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include(router.urls)),
 
