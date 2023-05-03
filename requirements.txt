@@ -13,6 +13,7 @@ django-js-asset
 djangorestframework
 djangorestframework-simplejwt
 drf-yasg
+gunicorn
 idna
 inflection
 itypes
