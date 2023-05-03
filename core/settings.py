@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8hb=oi4@ypfn1j_c*%a1pt$wiv)b6&obhbnyxgs=d4s07l0_*0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -130,7 +130,6 @@ AUTH_USER_MODEL = 'account.CustomUser'
 
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
-SILENCED_SYSTEM_CHECKS = ["security.W019"]
 
 ####################################
 ##  CKEDITOR CONFIGURATION        ##
