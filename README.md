@@ -1,6 +1,11 @@
 # backend-assiduit-
 Back office - application de gestion de l'assiduité des étudiants
 
+## Tables Schema from `phpMyAdmin`
+
+![alt Schéma du modèle](static/img/diagramme_assiduite.png)
+
+
 ## Start with `Docker`
 
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
