@@ -18,6 +18,7 @@ inflection
 itypes
 Jinja2
 MarkupSafe
+mysqlclient
 packaging
 Pillow
 psycopg2-binary
